@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "four eye kangroo club";
+const description = "four eyed kangaroo";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -15,7 +15,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x400105B21AB2779bD8a7d167fbe927C6E8e3e6cC",
       share: 100,
     },
   ],
@@ -29,10 +29,10 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Eyeball" },
       { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "hair" },
+      { name: "bag" },
+      { name: "legs" },
+      { name: "arms" },
     ],
   },
 ];
